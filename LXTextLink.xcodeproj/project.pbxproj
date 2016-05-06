@@ -23,6 +23,7 @@
 		5CE66FF01CD1067300BCAE82 /* LXRichTextURLRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE66FEA1CD1067300BCAE82 /* LXRichTextURLRun.m */; };
 		5CE66FF11CD1067300BCAE82 /* LXRichTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE66FEC1CD1067300BCAE82 /* LXRichTextView.m */; };
 		5CE66FF41CD106B100BCAE82 /* LXHelpClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE66FF31CD106B100BCAE82 /* LXHelpClass.m */; };
+		5CFA57011CDC79A0008FD230 /* go_back_on2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CFA57001CDC79A0008FD230 /* go_back_on2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		5CE66FF21CD106B100BCAE82 /* LXHelpClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXHelpClass.h; sourceTree = "<group>"; };
 		5CE66FF31CD106B100BCAE82 /* LXHelpClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXHelpClass.m; sourceTree = "<group>"; };
 		5CE66FF51CD1070400BCAE82 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		5CFA57001CDC79A0008FD230 /* go_back_on2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go_back_on2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 		5C06CBD61CCF9CD6008A3C9B /* LXTextLink */ = {
 			isa = PBXGroup;
 			children = (
+				5CFA57001CDC79A0008FD230 /* go_back_on2.png */,
 				5CE66FE21CD1067300BCAE82 /* DrawTextView */,
 				5CBA08011CD09A980048978D /* expression.plist */,
 				5CBA08021CD09A980048978D /* expression2.plist */,
@@ -293,6 +296,7 @@
 				5C06CBE41CCF9CD6008A3C9B /* Assets.xcassets in Resources */,
 				5CBA08041CD09A980048978D /* expression2.plist in Resources */,
 				5CBA08031CD09A980048978D /* expression.plist in Resources */,
+				5CFA57011CDC79A0008FD230 /* go_back_on2.png in Resources */,
 				5C06CBE21CCF9CD6008A3C9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

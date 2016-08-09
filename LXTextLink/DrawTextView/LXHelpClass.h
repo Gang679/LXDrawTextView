@@ -9,9 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AppDelegate.h"
 
-//#define customPic @[@"[发]", @"[报]", @"[健]", @"[领]", @"[约]", @"[置]"]
 #define customPic @[@"[发帖]", @"[报名]", @"[健身]", @"[领水]", @"[约战]", @"[置顶]"]
-#define customPicName @[@"icon_style_1", @"icon_style_2", @"icon_style_3", @"icon_style_4", @"icon_style_5", @"icon_style_6"]
 
 @interface LXHelpClass : NSObject
 

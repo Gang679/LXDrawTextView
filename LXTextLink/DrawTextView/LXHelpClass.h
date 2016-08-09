@@ -22,6 +22,7 @@
 
 + (LXHelpClass *)sharedLXHelpClass;
 + (NSArray *)getFace;
++ (CGFloat)calculateLabelighWithText:(NSString *)textStr withMaxSize:(CGSize)maxSize withFont:(CGFloat)font withSpaceRH:(CGFloat)spaceRH;
 
 @end
 

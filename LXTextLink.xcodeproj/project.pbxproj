@@ -15,7 +15,6 @@
 		5C06CBE71CCF9CD6008A3C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C06CBE51CCF9CD6008A3C9B /* LaunchScreen.storyboard */; };
 		5C06CBF21CCF9CD6008A3C9B /* LXTextLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C06CBF11CCF9CD6008A3C9B /* LXTextLinkTests.m */; };
 		5C06CBFD1CCF9CD6008A3C9B /* LXTextLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C06CBFC1CCF9CD6008A3C9B /* LXTextLinkUITests.m */; };
-		5CBA08031CD09A980048978D /* expression.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA08011CD09A980048978D /* expression.plist */; };
 		5CBA08041CD09A980048978D /* expression2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5CBA08021CD09A980048978D /* expression2.plist */; };
 		5CE66FED1CD1067300BCAE82 /* LXRichTextBaseRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE66FE41CD1067300BCAE82 /* LXRichTextBaseRun.m */; };
 		5CE66FEE1CD1067300BCAE82 /* LXRichTextEmojiRun.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE66FE61CD1067300BCAE82 /* LXRichTextEmojiRun.m */; };
@@ -60,7 +59,6 @@
 		5C06CBF81CCF9CD6008A3C9B /* LXTextLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXTextLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C06CBFC1CCF9CD6008A3C9B /* LXTextLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXTextLinkUITests.m; sourceTree = "<group>"; };
 		5C06CBFE1CCF9CD6008A3C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CBA08011CD09A980048978D /* expression.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression.plist; sourceTree = "<group>"; };
 		5CBA08021CD09A980048978D /* expression2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = expression2.plist; sourceTree = "<group>"; };
 		5CE66FE31CD1067300BCAE82 /* LXRichTextBaseRun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRichTextBaseRun.h; sourceTree = "<group>"; };
 		5CE66FE41CD1067300BCAE82 /* LXRichTextBaseRun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRichTextBaseRun.m; sourceTree = "<group>"; };
@@ -126,18 +124,11 @@
 		5C06CBD61CCF9CD6008A3C9B /* LXTextLink */ = {
 			isa = PBXGroup;
 			children = (
-				5CFA57001CDC79A0008FD230 /* go_back_on2.png */,
 				5CE66FE21CD1067300BCAE82 /* DrawTextView */,
-				5CBA08011CD09A980048978D /* expression.plist */,
-				5CBA08021CD09A980048978D /* expression2.plist */,
 				5C06CBDA1CCF9CD6008A3C9B /* AppDelegate.h */,
 				5C06CBDB1CCF9CD6008A3C9B /* AppDelegate.m */,
 				5C06CBDD1CCF9CD6008A3C9B /* ViewController.h */,
 				5C06CBDE1CCF9CD6008A3C9B /* ViewController.m */,
-				5C06CBE01CCF9CD6008A3C9B /* Main.storyboard */,
-				5C06CBE31CCF9CD6008A3C9B /* Assets.xcassets */,
-				5C06CBE51CCF9CD6008A3C9B /* LaunchScreen.storyboard */,
-				5C06CBE81CCF9CD6008A3C9B /* Info.plist */,
 				5C06CBD71CCF9CD6008A3C9B /* Supporting Files */,
 			);
 			path = LXTextLink;
@@ -146,6 +137,12 @@
 		5C06CBD71CCF9CD6008A3C9B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5CBA08021CD09A980048978D /* expression2.plist */,
+				5CFA57001CDC79A0008FD230 /* go_back_on2.png */,
+				5C06CBE01CCF9CD6008A3C9B /* Main.storyboard */,
+				5C06CBE31CCF9CD6008A3C9B /* Assets.xcassets */,
+				5C06CBE51CCF9CD6008A3C9B /* LaunchScreen.storyboard */,
+				5C06CBE81CCF9CD6008A3C9B /* Info.plist */,
 				5C06CBD81CCF9CD6008A3C9B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -295,7 +292,6 @@
 				5C06CBE71CCF9CD6008A3C9B /* LaunchScreen.storyboard in Resources */,
 				5C06CBE41CCF9CD6008A3C9B /* Assets.xcassets in Resources */,
 				5CBA08041CD09A980048978D /* expression2.plist in Resources */,
-				5CBA08031CD09A980048978D /* expression.plist in Resources */,
 				5CFA57011CDC79A0008FD230 /* go_back_on2.png in Resources */,
 				5C06CBE21CCF9CD6008A3C9B /* Main.storyboard in Resources */,
 			);

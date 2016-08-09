@@ -24,17 +24,6 @@
 
 - (BOOL)drawRunWithRect:(CGRect)rect
 {
-//    NSString *path = [[NSBundle mainBundle] pathForResource:@"expression2" ofType:@"plist"];
-//    NSMutableArray *faces = [NSMutableArray arrayWithContentsOfFile:path];
-//    NSArray *addArr = @[@{customPic[0]: @"icon_style_1"}, @{customPic[1]: @"icon_style_2"}, @{customPic[2]: @"icon_style_3"}, @{customPic[3]: @"icon_style_4"}, @{customPic[4]: @"icon_style_5"}, @{customPic[5]: @"icon_style_6"}];
-//    [faces addObjectsFromArray:addArr];
-//    NSMutableArray *keyArr = [[NSMutableArray alloc] init];
-//    NSMutableArray *valueArr = [[NSMutableArray alloc] init];
-//    for (NSDictionary *dic in faces) {
-//        [keyArr addObject:[dic allKeys][0]];
-//        [valueArr addObject:[dic allValues][0]];
-//    }
-    
     if ([helpClass.keyArrAll containsObject:self.originalText]) {
         NSInteger idex = [helpClass.keyArrAll indexOfObject:self.originalText];
         NSString *str00 = helpClass.valueArrAll[idex];

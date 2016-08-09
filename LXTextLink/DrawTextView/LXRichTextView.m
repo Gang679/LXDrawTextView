@@ -220,46 +220,6 @@ goto check;
     return result;
 }
 
-//-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-//    CGPoint location = [(UITouch *)[touches anyObject] locationInView:self];
-//    CGPoint runLocation = CGPointMake(location.x, self.frame.size.height - location.y);
-//    
-//    if (self.delegage && [self.delegage respondsToSelector:@selector(richTextView: touchBeginRun:)])
-//    {
-//        __weak LXRichTextView *weakSelf = self;
-//        [self.richTextRunRectDic enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop)
-//         {
-//             CGRect rect = [((NSValue *)key) CGRectValue];
-//             LXRichTextBaseRun *run = obj;
-//             if(CGRectContainsPoint(rect, runLocation))
-//             {
-//                 [weakSelf.delegage richTextView:weakSelf touchBeginRun:run];
-//             }
-//         }];
-//    }
-//}
-//
-//-(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
-//{
-//    CGPoint location = [(UITouch *)[touches anyObject] locationInView:self];
-//    CGPoint runLocation = CGPointMake(location.x, self.frame.size.height - location.y);
-//    
-//    if (self.delegage && [self.delegage respondsToSelector:@selector(richTextView: touchEndRun:)])
-//    {
-//        [self.richTextRunRectDic enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop)
-//         {
-//             __weak LXRichTextView *weakSelf = self;
-//             CGRect rect = [((NSValue *)key) CGRectValue];
-//             LXRichTextBaseRun *run = obj;
-//             if(CGRectContainsPoint(rect, runLocation))
-//             {
-//                 [weakSelf.delegage richTextView:weakSelf touchEndRun:run];
-//             }
-//         }];
-//    }
-//}
-
 - (void)tap:(id)sender
 {
     UITapGestureRecognizer *tap = (UITapGestureRecognizer *)sender;
@@ -282,7 +242,7 @@ goto check;
          }];
         if (self.isTop) {
             LXRichTextBaseRun *run = [[LXRichTextBaseRun alloc] init];
-            run.originalText = @"rtp://xielexuan.com";
+            run.originalText = @"https://github.com/SoftProgramLX?tab=repositories";
             CGFloat tapH = self.font.lineHeight;
 //            NSLog(@"%@ %@", tapH, self.font.lineHeight);
             CGRect rect = CGRectMake(0, self.frame.size.height - tapH, tapH*1.1*1.8, self.frame.size.height - tapH);

@@ -67,7 +67,7 @@
     }
     
     if ([urlType isEqualToString:@"2"]) {
-        NSArray *vailArr = @[@"围观一下", @"我也要报名", @"我也要健身", @"我也要领水", @"立即加入"];
+        NSArray *vailArr = @[@"我的github", @"立即加入"];
         for (NSString *str in vailArr) {
             if ([strLink hasSuffix:str]) {
                 

@@ -37,7 +37,7 @@ SYNTHESIZE_SINGLETON_FOR_CLASS(LXHelpClass)
 }
 + (NSArray *)getFace
 {
-    NSString *plistFilePath = [[NSBundle mainBundle] pathForResource:@"expression" ofType:@"plist"];
+    NSString *plistFilePath = [[NSBundle mainBundle] pathForResource:@"expression2" ofType:@"plist"];
     NSArray *arr = [NSArray arrayWithContentsOfFile:plistFilePath];
     return arr;
 }
